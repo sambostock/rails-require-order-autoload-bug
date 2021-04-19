@@ -1,0 +1,5 @@
+#! /usr/bin/env sh
+
+rm log/development.log
+bin/rails runner demo.rb
+cat log/development.log
