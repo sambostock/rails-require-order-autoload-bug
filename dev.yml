@@ -1,0 +1,7 @@
+name: rails-require-order-autoload-bug
+
+type: ruby
+
+up:
+  - ruby: 3.0.1
+  - bundler
